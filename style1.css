@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Light grey background for a modern look */
+    color: #333333; /* Dark grey for text for better readability */
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #1f2937; /* Dark grey/blue for a professional header */
+    color: #ffffff; /* White text for better contrast */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px; /* Added padding for better spacing */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for a modern effect */
+}
+
+footer {
+    background-color: #1f2937; /* Match the footer with the header */
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+#login {
+    background-color: #f4f4f9; /* Light background for the button */
+    color: #1f2937; /* Dark text for contrast */
+    height: 50px;
+    width: 175px;
+    border: 1px solid #1f2937; /* Border for better button definition */
+    border-radius: 5px;
+    margin: 10px 30px;
+    font-size: 1.1em;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#login:hover {
+    background-color: #e2e8f0; /* Button hover effect */
+}
+
+#heading {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+section {
+    margin: 100px 30px; /* Adjust margins to make layout more compact */
+    font-size: 1.2em;
+}
+
+#getstarted {
+    background-color: #1f6f8b; /* Professional blue tone for the main action button */
+    color: #ffffff;
+    float: right;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#getstarted:hover {
+    background-color: #145374; /* Darker blue on hover */
+}
+
+div {
+    height: 100vh;
+}
